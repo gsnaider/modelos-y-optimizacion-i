@@ -4,6 +4,7 @@ Created on Jun 20, 2016
 @author: gaston
 '''
 from __builtin__ import True, False
+from random import randint
 
 # Number of banks
 N = 10
@@ -42,6 +43,18 @@ DIST_J = [1697, 726, 1122, 1045, 1029, 855, 379, 288, 759, 328, 0]
 
 DISTANCES = [DIST_O, DIST_A, DIST_B, DIST_C, DIST_D, DIST_E, DIST_F, DIST_G, DIST_H, DIST_I, DIST_J]
 
+
+def random_route():
+    route = [0]
+    money = 0
+    while (len(route) <= N):
+        next_bank = randint(1,N)
+        if (not next_bank in route) and (have_enough_money(money, next_bank)):
+                money = go_to_bank(route, money, next_bank)
+                
+    route.append(0)            
+    return route        
+    
 
 def add_banks_idx_to_list(lst):
     tuple_list = []

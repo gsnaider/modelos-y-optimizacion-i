@@ -4,11 +4,11 @@ Created on Jun 21, 2016
 @author: gaston
 '''
 from heuristica.construccion.nearest_neighbor import nearest_neighbor, \
-    print_route
+    print_route, random_route
 from heuristica.mejoramiento.k_opt import k_opt
 
 
-route = nearest_neighbor()
+route = random_route()
 print ""
 print "Ruta inicial"
 print ""

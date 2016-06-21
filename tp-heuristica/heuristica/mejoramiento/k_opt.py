@@ -53,7 +53,7 @@ def k_opt(route):
                 if ((is_route_possible(route)) and (new_distance < distance)):
                     change = True
                     distance = new_distance
-                    print "Intercambiando",i,"y",j
+                    print "Intercambiando",route[j],"y",route[i]
                     print ""
                 else:
                     swap(route, i, j)
