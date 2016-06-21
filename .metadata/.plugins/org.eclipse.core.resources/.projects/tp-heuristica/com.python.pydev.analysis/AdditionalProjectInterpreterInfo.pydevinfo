@@ -1,0 +1,50 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/gaston/workspace/modelos-y-optimizacion-i/.metadata/.plugins/org.eclipse.core.resources/.projects/tp-heuristica/com.python.pydev.analysis/v2_indexcache
+heuristica.__init__|1466439201000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/__init__.py
+heuristica.construccion.nearest_neighbor|1466476575000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/construccion/nearest_neighbor.py
+heuristica.mejoramiento.__init__|1466439247000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/mejoramiento/__init__.py
+test.test|1466466489000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/test/test.py
+heuristica.construccion.__init__|1466439238000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/construccion/__init__.py
+heuristica.mejoramiento.k_opt|1466439411000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/mejoramiento/k_opt.py
+test.__init__|1466444129000000000|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/test/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+1=heuristica.construccion.nearest_neighbor
+2=test.test
+-- END DICTIONARY
+-- START TREE 1
+28
+N|1|N!11@
+a|1|a!19@
+add|1|add_banks_idx_to_list!10@
+bac|3|backtrack_one_bank!10@backtracked!11@backtracked_bank!11@
+con|0|
+cur|1|current_bank!11@
+dis|12|DIST_F!11@DIST_O!11@DIST_H!11@DIST_A!11@DIST_B!11@DIST_D!11@DIST_G!11@DIST_I!11@DIST_J!11@DISTANCES!11@DIST_C!11@DIST_E!11@
+don|1|done!11@
+fin|1|find_bank_idx!10@
+fou|1|found_next_bank!11@
+fun|1|func!18@
+get|1|get_sorted_bank_distances!10@
+go_|1|go_to_bank!10@
+hav|1|have_enough_money!10@
+idx|1|idx!11@
+ini|1|INITIAL_MONEY!11@
+is_|0|
+lst|1|lst!19@
+max|1|MAX_MONEY!11@
+moe|0|
+mon|1|money!11@
+mov|12|MOV_E!11@MOV_G!11@MOV_I!11@MOV_B!11@MOV_D!11@MOV_O!11@MOV_F!11@MOV_A!11@MOV_H!11@MOVEMENTS!11@MOV_C!11@MOV_J!11@
+nex|1|next_bank!11@
+pri|1|print_route!10@
+rou|1|route!11@
+sor|1|sorted_bank_distances!11@
+tru|0|
+tup|0|
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
