@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;tp-heuristica/heuristica/construccion/nearest-neighbor.py&apos; to &apos;nearest_neighbor.py&apos;" description="Rename resource &apos;nearest-neighbor.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="heuristica/construccion/nearest-neighbor.py" name="nearest_neighbor.py" stamp="1466439396840" updateReferences="true"/>
-</session>

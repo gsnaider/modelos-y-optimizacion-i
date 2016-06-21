@@ -1,8 +1,0 @@
-INSTUPheuristica.mejoramiento.k_opt
-/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/mejoramiento/k_opt.py
-INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0
-is_route_possible=4
-swap=3
-heuristica.mejoramiento.k_opt=2
-calculate_distance=1
-k_opt=5

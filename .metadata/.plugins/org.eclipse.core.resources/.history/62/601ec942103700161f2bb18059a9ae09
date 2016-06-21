@@ -1,7 +1,0 @@
-'''
-Created on Jun 20, 2016
-
-@author: gaston
-'''
-for i in range(1,10):
-    print i

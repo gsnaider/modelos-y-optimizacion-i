@@ -1,8 +1,0 @@
-'''
-Created on Jun 20, 2016
-
-@author: gaston
-'''
-a = 1
-
-print "hola " + a 
