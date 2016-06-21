@@ -94,7 +94,9 @@ def print_route(route):
     print "\t".join(output_header)
     for output_row in output:
         print "".join(output_row)
-            
+    
+    print ""
+           
     
             
 def find_bank_idx(distances, bank):
@@ -110,50 +112,53 @@ def backtrack_one_bank(route, money):
     del route[-1]
     return money
 
-money = MOV_O
-route = [0]
 
-done = False
-backtracked = False
-backtracked_bank = ""
-
-while not done:
-#    done = True
-    current_bank = route[-1]
-    found_next_bank = False
-    sorted_bank_distances = get_sorted_bank_distances(current_bank)
+def nearest_neighbor():
+    money = MOV_O
+    route = [0]
     
-    if(backtracked):
-        idx = find_bank_idx(sorted_bank_distances, backtracked_bank) + 1
-    else:
-        # 0 is the current bank
-        idx = 1 
-
-    while (idx <= N) and (not found_next_bank):
-        next_bank = sorted_bank_distances[idx][0]
-        if (not next_bank in route) and (have_enough_money(money, next_bank)):
-            money = go_to_bank(route, money, next_bank)
-            found_next_bank = True
+    done = False
+    backtracked = False
+    backtracked_bank = ""
+    
+    while not done:
+    #    done = True
+        current_bank = route[-1]
+        found_next_bank = False
+        sorted_bank_distances = get_sorted_bank_distances(current_bank)
+        
+        if(backtracked):
+            idx = find_bank_idx(sorted_bank_distances, backtracked_bank) + 1
         else:
-            idx += 1
-            
-    if (found_next_bank):
-        backtracked = False
-    else:
-        print "Backtracking from ",current_bank
-        money = backtrack_one_bank(route, money)
-        backtracked_bank = current_bank
-        backtracked = True
+            # 0 is the current bank
+            idx = 1 
     
-    
-    if(len(route) == 0):
-        done = True
-        print "No hay ruta posible."
-    
-    if (len(route) == N + 1):
-        route.append(0) # Return to start
-        done = True
-        print "Ruta encontrada."
-        print_route(route)
-    
+        while (idx <= N) and (not found_next_bank):
+            next_bank = sorted_bank_distances[idx][0]
+            if (not next_bank in route) and (have_enough_money(money, next_bank)):
+                money = go_to_bank(route, money, next_bank)
+                found_next_bank = True
+            else:
+                idx += 1
+                
+        if (found_next_bank):
+            backtracked = False
+        else:
+            money = backtrack_one_bank(route, money)
+            backtracked_bank = current_bank
+            backtracked = True
+        
+        
+        if(len(route) == 0):
+            done = True
+            print "No hay ruta posible."
+            print ""
+        
+        if (len(route) == N + 1):
+            route.append(0) # Return to start
+            done = True
+            print "Ruta encontrada."
+            print ""
+            return route
+
 

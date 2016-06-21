@@ -1,0 +1,9 @@
+'''
+Created on Jun 21, 2016
+
+@author: gaston
+'''
+from heuristica.mejoramiento.k_opt import k_opt
+
+
+k_opt()

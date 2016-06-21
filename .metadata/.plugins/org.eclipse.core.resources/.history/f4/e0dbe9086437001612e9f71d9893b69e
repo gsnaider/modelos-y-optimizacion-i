@@ -1,0 +1,9 @@
+'''
+Created on Jun 21, 2016
+
+@author: gaston
+'''
+
+
+route = nearest_neighbor()
+print_route(route)

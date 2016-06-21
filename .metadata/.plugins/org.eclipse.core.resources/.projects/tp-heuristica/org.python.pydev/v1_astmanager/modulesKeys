@@ -1,8 +1,4 @@
 MODULES_MANAGER_V2
 heuristica.__init__|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/__init__.py
-heuristica.construccion.__init__|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/construccion/__init__.py
-heuristica.construccion.nearest_neighbor|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/construccion/nearest_neighbor.py
-heuristica.mejoramiento.__init__|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/mejoramiento/__init__.py
-heuristica.mejoramiento.k_opt|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/heuristica/mejoramiento/k_opt.py
 test.__init__|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/test/__init__.py
 test.test|/home/gaston/workspace/modelos-y-optimizacion-i/tp-heuristica/test/test.py

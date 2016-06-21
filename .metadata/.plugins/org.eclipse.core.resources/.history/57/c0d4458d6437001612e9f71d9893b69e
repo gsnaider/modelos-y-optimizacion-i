@@ -1,0 +1,18 @@
+'''
+Created on Jun 21, 2016
+
+@author: gaston
+'''
+from heuristica.construccion.nearest_neighbor import nearest_neighbor, \
+    print_route
+from heuristica.mejoramiento.k_opt import k_opt
+
+
+route = nearest_neighbor()
+print "Ruta inicial"
+print_route(route)
+
+enhanced_route = k_opt(route)
+
+print "Ruta mejorada"
+print_route(enhanced_route)

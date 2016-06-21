@@ -1,0 +1,9 @@
+'''
+Created on Jun 21, 2016
+
+@author: gaston
+'''
+
+from heuristica.construccion.nearest_neighbor import *
+
+route = nearest_neighbor()
