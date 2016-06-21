@@ -1,0 +1,448 @@
+Problem:    tpM2
+Rows:       163
+Columns:    230 (220 integer, 210 binary)
+Non-zeros:  938
+Status:     INTEGER OPTIMAL
+Objective:  total = 6444 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 total                    6444                             
+     2 sale[O]                     1             1             = 
+     3 sale[A]                     1             1             = 
+     4 sale[B]                     1             1             = 
+     5 sale[C]                     1             1             = 
+     6 sale[D]                     1             1             = 
+     7 sale[E]                     1             1             = 
+     8 sale[F]                     1             1             = 
+     9 sale[G]                     1             1             = 
+    10 sale[H]                     1             1             = 
+    11 sale[I]                     1             1             = 
+    12 sale[J]                     1             1             = 
+    13 entra[O]                    1             1             = 
+    14 entra[A]                    1             1             = 
+    15 entra[B]                    1             1             = 
+    16 entra[C]                    1             1             = 
+    17 entra[D]                    1             1             = 
+    18 entra[E]                    1             1             = 
+    19 entra[F]                    1             1             = 
+    20 entra[G]                    1             1             = 
+    21 entra[H]                    1             1             = 
+    22 entra[I]                    1             1             = 
+    23 entra[J]                    1             1             = 
+    24 orden[A,B]                  3                           9 
+    25 orden[A,C]                  4                           9 
+    26 orden[A,D]                  2                           9 
+    27 orden[A,E]                 -3                           9 
+    28 orden[A,F]                 -2                           9 
+    29 orden[A,G]                  9                           9 
+    30 orden[A,H]                  1                           9 
+    31 orden[A,I]                  6                           9 
+    32 orden[A,J]                  5                           9 
+    33 orden[B,A]                 -3                           9 
+    34 orden[B,C]                  1                           9 
+    35 orden[B,D]                  9                           9 
+    36 orden[B,E]                 -6                           9 
+    37 orden[B,F]                 -5                           9 
+    38 orden[B,G]                 -4                           9 
+    39 orden[B,H]                 -2                           9 
+    40 orden[B,I]                  3                           9 
+    41 orden[B,J]                  2                           9 
+    42 orden[C,A]                 -4                           9 
+    43 orden[C,B]                  9                           9 
+    44 orden[C,D]                 -2                           9 
+    45 orden[C,E]                 -7                           9 
+    46 orden[C,F]                 -6                           9 
+    47 orden[C,G]                 -5                           9 
+    48 orden[C,H]                 -3                           9 
+    49 orden[C,I]                  2                           9 
+    50 orden[C,J]                  1                           9 
+    51 orden[D,A]                 -2                           9 
+    52 orden[D,B]                  1                           9 
+    53 orden[D,C]                  2                           9 
+    54 orden[D,E]                 -5                           9 
+    55 orden[D,F]                 -4                           9 
+    56 orden[D,G]                 -3                           9 
+    57 orden[D,H]                  9                           9 
+    58 orden[D,I]                  4                           9 
+    59 orden[D,J]                  3                           9 
+    60 orden[E,A]                  3                           9 
+    61 orden[E,B]                  6                           9 
+    62 orden[E,C]                  7                           9 
+    63 orden[E,D]                  5                           9 
+    64 orden[E,F]                  1                           9 
+    65 orden[E,G]                  2                           9 
+    66 orden[E,H]                  4                           9 
+    67 orden[E,I]                  9                           9 
+    68 orden[E,J]                  8                           9 
+    69 orden[F,A]                  2                           9 
+    70 orden[F,B]                  5                           9 
+    71 orden[F,C]                  6                           9 
+    72 orden[F,D]                  4                           9 
+    73 orden[F,E]                  9                           9 
+    74 orden[F,G]                  1                           9 
+    75 orden[F,H]                  3                           9 
+    76 orden[F,I]                  8                           9 
+    77 orden[F,J]                  7                           9 
+    78 orden[G,A]                  1                           9 
+    79 orden[G,B]                  4                           9 
+    80 orden[G,C]                  5                           9 
+    81 orden[G,D]                  3                           9 
+    82 orden[G,E]                 -2                           9 
+    83 orden[G,F]                  9                           9 
+    84 orden[G,H]                  2                           9 
+    85 orden[G,I]                  7                           9 
+    86 orden[G,J]                  6                           9 
+    87 orden[H,A]                  9                           9 
+    88 orden[H,B]                  2                           9 
+    89 orden[H,C]                  3                           9 
+    90 orden[H,D]                  1                           9 
+    91 orden[H,E]                 -4                           9 
+    92 orden[H,F]                 -3                           9 
+    93 orden[H,G]                 -2                           9 
+    94 orden[H,I]                  5                           9 
+    95 orden[H,J]                  4                           9 
+    96 orden[I,A]                 -6                           9 
+    97 orden[I,B]                 -3                           9 
+    98 orden[I,C]                 -2                           9 
+    99 orden[I,D]                 -4                           9 
+   100 orden[I,E]                 -9                           9 
+   101 orden[I,F]                 -8                           9 
+   102 orden[I,G]                 -7                           9 
+   103 orden[I,H]                 -5                           9 
+   104 orden[I,J]                  9                           9 
+   105 orden[J,A]                 -5                           9 
+   106 orden[J,B]                 -2                           9 
+   107 orden[J,C]                  9                           9 
+   108 orden[J,D]                 -3                           9 
+   109 orden[J,E]                 -8                           9 
+   110 orden[J,F]                 -7                           9 
+   111 orden[J,G]                 -6                           9 
+   112 orden[J,H]                 -4                           9 
+   113 orden[J,I]                  1                           9 
+   114 valoresU[A]                 7             1            10 
+   115 valoresU[B]                 4             1            10 
+   116 valoresU[C]                 3             1            10 
+   117 valoresU[D]                 5             1            10 
+   118 valoresU[E]                10             1            10 
+   119 valoresU[F]                 9             1            10 
+   120 valoresU[G]                 8             1            10 
+   121 valoresU[H]                 6             1            10 
+   122 valoresU[I]                 1             1            10 
+   123 valoresU[J]                 2             1            10 
+   124 dineroTotalMaximo
+                                   0         -5500          4500 
+   125 rest_Din_acum[1]
+                                   0             0         10000 
+   126 rest_Din_acum[2]
+                                1000             0         10000 
+   127 rest_Din_acum[3]
+                                2000             0         10000 
+   128 rest_Din_acum[4]
+                                4000             0         10000 
+   129 rest_Din_acum[5]
+                                1000             0         10000 
+   130 rest_Din_acum[6]
+                                1500             0         10000 
+   131 rest_Din_acum[7]
+                                 500             0         10000 
+   132 rest_Din_acum[8]
+                                2500             0         10000 
+   133 rest_Din_acum[9]
+                                1500             0         10000 
+   134 rest_Din_acum[10]
+                                6500             0         10000 
+   135 acum[1]                     0            -0             = 
+   136 acum[2]                     0            -0             = 
+   137 acum[3]                     0            -0             = 
+   138 acum[4]                     0            -0             = 
+   139 acum[5]                     0            -0             = 
+   140 acum[6]                     0            -0             = 
+   141 acum[7]                     0            -0             = 
+   142 acum[8]                     0            -0             = 
+   143 acum[9]                     0            -0             = 
+   144 wSolaPorregion[1]
+                                   1             1             = 
+   145 wSolaPorregion[2]
+                                   1             1             = 
+   146 wSolaPorregion[3]
+                                   1             1             = 
+   147 wSolaPorregion[4]
+                                   1             1             = 
+   148 wSolaPorregion[5]
+                                   1             1             = 
+   149 wSolaPorregion[6]
+                                   1             1             = 
+   150 wSolaPorregion[7]
+                                   1             1             = 
+   151 wSolaPorregion[8]
+                                   1             1             = 
+   152 wSolaPorregion[9]
+                                   1             1             = 
+   153 wSolaPorregion[10]
+                                   1             1             = 
+   154 prenderW[A]                 0            -0             = 
+   155 prenderW[B]                 0            -0             = 
+   156 prenderW[C]                 0            -0             = 
+   157 prenderW[D]                 0            -0             = 
+   158 prenderW[E]                 0            -0             = 
+   159 prenderW[F]                 0            -0             = 
+   160 prenderW[G]                 0            -0             = 
+   161 prenderW[H]                 0            -0             = 
+   162 prenderW[I]                 0            -0             = 
+   163 prenderW[J]                 0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[O,A]       *              0             0             1 
+     2 x[O,B]       *              0             0             1 
+     3 x[O,C]       *              0             0             1 
+     4 x[O,D]       *              0             0             1 
+     5 x[O,E]       *              0             0             1 
+     6 x[O,F]       *              0             0             1 
+     7 x[O,G]       *              0             0             1 
+     8 x[O,H]       *              0             0             1 
+     9 x[O,I]       *              1             0             1 
+    10 x[O,J]       *              0             0             1 
+    11 x[A,O]       *              0             0             1 
+    12 x[A,B]       *              0             0             1 
+    13 x[A,C]       *              0             0             1 
+    14 x[A,D]       *              0             0             1 
+    15 x[A,E]       *              0             0             1 
+    16 x[A,F]       *              0             0             1 
+    17 x[A,G]       *              1             0             1 
+    18 x[A,H]       *              0             0             1 
+    19 x[A,I]       *              0             0             1 
+    20 x[A,J]       *              0             0             1 
+    21 x[B,O]       *              0             0             1 
+    22 x[B,A]       *              0             0             1 
+    23 x[B,C]       *              0             0             1 
+    24 x[B,D]       *              1             0             1 
+    25 x[B,E]       *              0             0             1 
+    26 x[B,F]       *              0             0             1 
+    27 x[B,G]       *              0             0             1 
+    28 x[B,H]       *              0             0             1 
+    29 x[B,I]       *              0             0             1 
+    30 x[B,J]       *              0             0             1 
+    31 x[C,O]       *              0             0             1 
+    32 x[C,A]       *              0             0             1 
+    33 x[C,B]       *              1             0             1 
+    34 x[C,D]       *              0             0             1 
+    35 x[C,E]       *              0             0             1 
+    36 x[C,F]       *              0             0             1 
+    37 x[C,G]       *              0             0             1 
+    38 x[C,H]       *              0             0             1 
+    39 x[C,I]       *              0             0             1 
+    40 x[C,J]       *              0             0             1 
+    41 x[D,O]       *              0             0             1 
+    42 x[D,A]       *              0             0             1 
+    43 x[D,B]       *              0             0             1 
+    44 x[D,C]       *              0             0             1 
+    45 x[D,E]       *              0             0             1 
+    46 x[D,F]       *              0             0             1 
+    47 x[D,G]       *              0             0             1 
+    48 x[D,H]       *              1             0             1 
+    49 x[D,I]       *              0             0             1 
+    50 x[D,J]       *              0             0             1 
+    51 x[E,O]       *              1             0             1 
+    52 x[E,A]       *              0             0             1 
+    53 x[E,B]       *              0             0             1 
+    54 x[E,C]       *              0             0             1 
+    55 x[E,D]       *              0             0             1 
+    56 x[E,F]       *              0             0             1 
+    57 x[E,G]       *              0             0             1 
+    58 x[E,H]       *              0             0             1 
+    59 x[E,I]       *              0             0             1 
+    60 x[E,J]       *              0             0             1 
+    61 x[F,O]       *              0             0             1 
+    62 x[F,A]       *              0             0             1 
+    63 x[F,B]       *              0             0             1 
+    64 x[F,C]       *              0             0             1 
+    65 x[F,D]       *              0             0             1 
+    66 x[F,E]       *              1             0             1 
+    67 x[F,G]       *              0             0             1 
+    68 x[F,H]       *              0             0             1 
+    69 x[F,I]       *              0             0             1 
+    70 x[F,J]       *              0             0             1 
+    71 x[G,O]       *              0             0             1 
+    72 x[G,A]       *              0             0             1 
+    73 x[G,B]       *              0             0             1 
+    74 x[G,C]       *              0             0             1 
+    75 x[G,D]       *              0             0             1 
+    76 x[G,E]       *              0             0             1 
+    77 x[G,F]       *              1             0             1 
+    78 x[G,H]       *              0             0             1 
+    79 x[G,I]       *              0             0             1 
+    80 x[G,J]       *              0             0             1 
+    81 x[H,O]       *              0             0             1 
+    82 x[H,A]       *              1             0             1 
+    83 x[H,B]       *              0             0             1 
+    84 x[H,C]       *              0             0             1 
+    85 x[H,D]       *              0             0             1 
+    86 x[H,E]       *              0             0             1 
+    87 x[H,F]       *              0             0             1 
+    88 x[H,G]       *              0             0             1 
+    89 x[H,I]       *              0             0             1 
+    90 x[H,J]       *              0             0             1 
+    91 x[I,O]       *              0             0             1 
+    92 x[I,A]       *              0             0             1 
+    93 x[I,B]       *              0             0             1 
+    94 x[I,C]       *              0             0             1 
+    95 x[I,D]       *              0             0             1 
+    96 x[I,E]       *              0             0             1 
+    97 x[I,F]       *              0             0             1 
+    98 x[I,G]       *              0             0             1 
+    99 x[I,H]       *              0             0             1 
+   100 x[I,J]       *              1             0             1 
+   101 x[J,O]       *              0             0             1 
+   102 x[J,A]       *              0             0             1 
+   103 x[J,B]       *              0             0             1 
+   104 x[J,C]       *              1             0             1 
+   105 x[J,D]       *              0             0             1 
+   106 x[J,E]       *              0             0             1 
+   107 x[J,F]       *              0             0             1 
+   108 x[J,G]       *              0             0             1 
+   109 x[J,H]       *              0             0             1 
+   110 x[J,I]       *              0             0             1 
+   111 dinero_acumulado[1]
+                                   0                             
+   112 dinero_acumulado[2]
+                                1000                             
+   113 dinero_acumulado[3]
+                                2000                             
+   114 dinero_acumulado[4]
+                                4000                             
+   115 dinero_acumulado[5]
+                                1000                             
+   116 dinero_acumulado[6]
+                                1500                             
+   117 dinero_acumulado[7]
+                                 500                             
+   118 dinero_acumulado[8]
+                                2500                             
+   119 dinero_acumulado[9]
+                                1500                             
+   120 dinero_acumulado[10]
+                                6500                             
+   121 U[B]         *              4                             
+   122 U[A]         *              7                             
+   123 U[C]         *              3                             
+   124 U[D]         *              5                             
+   125 U[E]         *             10                             
+   126 U[F]         *              9                             
+   127 U[G]         *              8                             
+   128 U[H]         *              6                             
+   129 U[I]         *              1                             
+   130 U[J]         *              2                             
+   131 w[A,1]       *              0             0             1 
+   132 w[B,1]       *              0             0             1 
+   133 w[C,1]       *              0             0             1 
+   134 w[D,1]       *              0             0             1 
+   135 w[E,1]       *              0             0             1 
+   136 w[F,1]       *              0             0             1 
+   137 w[G,1]       *              0             0             1 
+   138 w[H,1]       *              0             0             1 
+   139 w[I,1]       *              1             0             1 
+   140 w[J,1]       *              0             0             1 
+   141 w[A,2]       *              0             0             1 
+   142 w[B,2]       *              0             0             1 
+   143 w[C,2]       *              0             0             1 
+   144 w[D,2]       *              0             0             1 
+   145 w[E,2]       *              0             0             1 
+   146 w[F,2]       *              0             0             1 
+   147 w[G,2]       *              0             0             1 
+   148 w[H,2]       *              0             0             1 
+   149 w[I,2]       *              0             0             1 
+   150 w[J,2]       *              1             0             1 
+   151 w[A,3]       *              0             0             1 
+   152 w[B,3]       *              0             0             1 
+   153 w[C,3]       *              1             0             1 
+   154 w[D,3]       *              0             0             1 
+   155 w[E,3]       *              0             0             1 
+   156 w[F,3]       *              0             0             1 
+   157 w[G,3]       *              0             0             1 
+   158 w[H,3]       *              0             0             1 
+   159 w[I,3]       *              0             0             1 
+   160 w[J,3]       *              0             0             1 
+   161 w[A,4]       *              0             0             1 
+   162 w[B,4]       *              1             0             1 
+   163 w[C,4]       *              0             0             1 
+   164 w[D,4]       *              0             0             1 
+   165 w[E,4]       *              0             0             1 
+   166 w[F,4]       *              0             0             1 
+   167 w[G,4]       *              0             0             1 
+   168 w[H,4]       *              0             0             1 
+   169 w[I,4]       *              0             0             1 
+   170 w[J,4]       *              0             0             1 
+   171 w[A,5]       *              0             0             1 
+   172 w[B,5]       *              0             0             1 
+   173 w[C,5]       *              0             0             1 
+   174 w[D,5]       *              1             0             1 
+   175 w[E,5]       *              0             0             1 
+   176 w[F,5]       *              0             0             1 
+   177 w[G,5]       *              0             0             1 
+   178 w[H,5]       *              0             0             1 
+   179 w[I,5]       *              0             0             1 
+   180 w[J,5]       *              0             0             1 
+   181 w[A,6]       *              0             0             1 
+   182 w[B,6]       *              0             0             1 
+   183 w[C,6]       *              0             0             1 
+   184 w[D,6]       *              0             0             1 
+   185 w[E,6]       *              0             0             1 
+   186 w[F,6]       *              0             0             1 
+   187 w[G,6]       *              0             0             1 
+   188 w[H,6]       *              1             0             1 
+   189 w[I,6]       *              0             0             1 
+   190 w[J,6]       *              0             0             1 
+   191 w[A,7]       *              1             0             1 
+   192 w[B,7]       *              0             0             1 
+   193 w[C,7]       *              0             0             1 
+   194 w[D,7]       *              0             0             1 
+   195 w[E,7]       *              0             0             1 
+   196 w[F,7]       *              0             0             1 
+   197 w[G,7]       *              0             0             1 
+   198 w[H,7]       *              0             0             1 
+   199 w[I,7]       *              0             0             1 
+   200 w[J,7]       *              0             0             1 
+   201 w[A,8]       *              0             0             1 
+   202 w[B,8]       *              0             0             1 
+   203 w[C,8]       *              0             0             1 
+   204 w[D,8]       *              0             0             1 
+   205 w[E,8]       *              0             0             1 
+   206 w[F,8]       *              0             0             1 
+   207 w[G,8]       *              1             0             1 
+   208 w[H,8]       *              0             0             1 
+   209 w[I,8]       *              0             0             1 
+   210 w[J,8]       *              0             0             1 
+   211 w[A,9]       *              0             0             1 
+   212 w[B,9]       *              0             0             1 
+   213 w[C,9]       *              0             0             1 
+   214 w[D,9]       *              0             0             1 
+   215 w[E,9]       *              0             0             1 
+   216 w[F,9]       *              1             0             1 
+   217 w[G,9]       *              0             0             1 
+   218 w[H,9]       *              0             0             1 
+   219 w[I,9]       *              0             0             1 
+   220 w[J,9]       *              0             0             1 
+   221 w[A,10]      *              0             0             1 
+   222 w[B,10]      *              0             0             1 
+   223 w[C,10]      *              0             0             1 
+   224 w[D,10]      *              0             0             1 
+   225 w[E,10]      *              1             0             1 
+   226 w[F,10]      *              0             0             1 
+   227 w[G,10]      *              0             0             1 
+   228 w[H,10]      *              0             0             1 
+   229 w[I,10]      *              0             0             1 
+   230 w[J,10]      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 7.96e-13 on row 125
+        max.rel.err = 7.96e-13 on row 125
+        High quality
+
+End of output

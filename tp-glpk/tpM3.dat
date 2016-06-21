@@ -1,0 +1,41 @@
+data;
+param n := 10;
+param Dinero_Maximo := 10000;
+param Dinero_Inicial := 0;
+
+set NODOS := O A B C D E F G H I J ;
+set BANCOS := A B C D E F G H I J ;
+
+param MONTOS :=
+O 0
+A 2000
+B -3000
+C 2000
+D 500
+E -1000
+F 5000
+G -1000
+H -1000
+I 1000
+J 1000;
+
+/* These data correspond to the symmetric instance ulysses16 from:
+
+   Reinelt, G.: TSPLIB - A travelling salesman problem library.
+   ORSA-Journal of the Computing 3 (1991) 376-84;
+   http://elib.zib.de/pub/Packages/mp-testdata/tsp/tsplib */
+
+param COSTO: O A B C D E F G H I J:=
+O    0 2314 2789 2728 2553 1504 1581 1661 2320 1387 1697
+A 2314    0  509  501  312 1019  736  656   60 1039  726
+B 2789  509    0  126  474 1526 1226 1133  532 1449 1122
+C 2728  501  126    0  541 1516 1184 1084  536 1371 1045
+D 2553  312  474  541    0 1157  980  919  271 1333 1029
+E 1504 1019 1526 1516 1157    0  478  583  996  858  855
+F 1581  736 1226 1184  980  478    0  115  740  470  379
+G 1661  656 1133 1084  919  583  115    0  667  455  288
+H 2320   60  532  536  271  996  740  667    0 1066  759
+I 1387 1039 1449 1371 1333  858  470  455 1066    0  328
+J 1697  726 1122 1045 1029  855  379  288  759  328    0
+;
+end;

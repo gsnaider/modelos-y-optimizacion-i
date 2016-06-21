@@ -1,0 +1,15 @@
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   1.9 secs
+Memory used: 1.0 Mb (1057501 bytes)
+Camino recorrido 6444
+Ciudad - Orden - Dinero_acumulado:
+ A 	 7 	 2500 
+ B 	 4 	 1000 
+ C 	 3 	 4000 
+ D 	 5 	 1500 
+ E 	 10 	 5500 
+ F 	 9 	 6500 
+ G 	 8 	 1500 
+ H 	 6 	 500 
+ I 	 1 	 1000 
+ J 	 2 	 2000 

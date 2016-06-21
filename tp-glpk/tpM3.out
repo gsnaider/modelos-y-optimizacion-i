@@ -1,0 +1,669 @@
+Problem:    tpM3
+Rows:       314
+Columns:    130 (120 integer, 110 binary)
+Non-zeros:  1160
+Status:     INTEGER OPTIMAL
+Objective:  total = 6444 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 total                    6444                             
+     2 sale[O]                     1             1             = 
+     3 sale[A]                     1             1             = 
+     4 sale[B]                     1             1             = 
+     5 sale[C]                     1             1             = 
+     6 sale[D]                     1             1             = 
+     7 sale[E]                     1             1             = 
+     8 sale[F]                     1             1             = 
+     9 sale[G]                     1             1             = 
+    10 sale[H]                     1             1             = 
+    11 sale[I]                     1             1             = 
+    12 sale[J]                     1             1             = 
+    13 entra[O]                    1             1             = 
+    14 entra[A]                    1             1             = 
+    15 entra[B]                    1             1             = 
+    16 entra[C]                    1             1             = 
+    17 entra[D]                    1             1             = 
+    18 entra[E]                    1             1             = 
+    19 entra[F]                    1             1             = 
+    20 entra[G]                    1             1             = 
+    21 entra[H]                    1             1             = 
+    22 entra[I]                    1             1             = 
+    23 entra[J]                    1             1             = 
+    24 orden[A,B]                  3                           9 
+    25 orden[A,C]                  4                           9 
+    26 orden[A,D]                  2                           9 
+    27 orden[A,E]                 -3                           9 
+    28 orden[A,F]                 -2                           9 
+    29 orden[A,G]                  9                           9 
+    30 orden[A,H]                  1                           9 
+    31 orden[A,I]                  6                           9 
+    32 orden[A,J]                  5                           9 
+    33 orden[B,A]                 -3                           9 
+    34 orden[B,C]                  1                           9 
+    35 orden[B,D]                  9                           9 
+    36 orden[B,E]                 -6                           9 
+    37 orden[B,F]                 -5                           9 
+    38 orden[B,G]                 -4                           9 
+    39 orden[B,H]                 -2                           9 
+    40 orden[B,I]                  3                           9 
+    41 orden[B,J]                  2                           9 
+    42 orden[C,A]                 -4                           9 
+    43 orden[C,B]                  9                           9 
+    44 orden[C,D]                 -2                           9 
+    45 orden[C,E]                 -7                           9 
+    46 orden[C,F]                 -6                           9 
+    47 orden[C,G]                 -5                           9 
+    48 orden[C,H]                 -3                           9 
+    49 orden[C,I]                  2                           9 
+    50 orden[C,J]                  1                           9 
+    51 orden[D,A]                 -2                           9 
+    52 orden[D,B]                  1                           9 
+    53 orden[D,C]                  2                           9 
+    54 orden[D,E]                 -5                           9 
+    55 orden[D,F]                 -4                           9 
+    56 orden[D,G]                 -3                           9 
+    57 orden[D,H]                  9                           9 
+    58 orden[D,I]                  4                           9 
+    59 orden[D,J]                  3                           9 
+    60 orden[E,A]                  3                           9 
+    61 orden[E,B]                  6                           9 
+    62 orden[E,C]                  7                           9 
+    63 orden[E,D]                  5                           9 
+    64 orden[E,F]                  1                           9 
+    65 orden[E,G]                  2                           9 
+    66 orden[E,H]                  4                           9 
+    67 orden[E,I]                  9                           9 
+    68 orden[E,J]                  8                           9 
+    69 orden[F,A]                  2                           9 
+    70 orden[F,B]                  5                           9 
+    71 orden[F,C]                  6                           9 
+    72 orden[F,D]                  4                           9 
+    73 orden[F,E]                  9                           9 
+    74 orden[F,G]                  1                           9 
+    75 orden[F,H]                  3                           9 
+    76 orden[F,I]                  8                           9 
+    77 orden[F,J]                  7                           9 
+    78 orden[G,A]                  1                           9 
+    79 orden[G,B]                  4                           9 
+    80 orden[G,C]                  5                           9 
+    81 orden[G,D]                  3                           9 
+    82 orden[G,E]                 -2                           9 
+    83 orden[G,F]                  9                           9 
+    84 orden[G,H]                  2                           9 
+    85 orden[G,I]                  7                           9 
+    86 orden[G,J]                  6                           9 
+    87 orden[H,A]                  9                           9 
+    88 orden[H,B]                  2                           9 
+    89 orden[H,C]                  3                           9 
+    90 orden[H,D]                  1                           9 
+    91 orden[H,E]                 -4                           9 
+    92 orden[H,F]                 -3                           9 
+    93 orden[H,G]                 -2                           9 
+    94 orden[H,I]                  5                           9 
+    95 orden[H,J]                  4                           9 
+    96 orden[I,A]                 -6                           9 
+    97 orden[I,B]                 -3                           9 
+    98 orden[I,C]                 -2                           9 
+    99 orden[I,D]                 -4                           9 
+   100 orden[I,E]                 -9                           9 
+   101 orden[I,F]                 -8                           9 
+   102 orden[I,G]                 -7                           9 
+   103 orden[I,H]                 -5                           9 
+   104 orden[I,J]                  9                           9 
+   105 orden[J,A]                 -5                           9 
+   106 orden[J,B]                 -2                           9 
+   107 orden[J,C]                  9                           9 
+   108 orden[J,D]                 -3                           9 
+   109 orden[J,E]                 -8                           9 
+   110 orden[J,F]                 -7                           9 
+   111 orden[J,G]                 -6                           9 
+   112 orden[J,H]                 -4                           9 
+   113 orden[J,I]                  1                           9 
+   114 valoresU[A]                 7             1            10 
+   115 valoresU[B]                 4             1            10 
+   116 valoresU[C]                 3             1            10 
+   117 valoresU[D]                 5             1            10 
+   118 valoresU[E]                10             1            10 
+   119 valoresU[F]                 9             1            10 
+   120 valoresU[G]                 8             1            10 
+   121 valoresU[H]                 6             1            10 
+   122 valoresU[I]                 1             1            10 
+   123 valoresU[J]                 2             1            10 
+   124 dineroTotalMaximo
+                                   0         -5500          4500 
+   125 rest_Din_acum[A]
+                                 500             0         10000 
+   126 rest_Din_acum[B]
+                                4000             0         10000 
+   127 rest_Din_acum[C]
+                                2000             0         10000 
+   128 rest_Din_acum[D]
+                                1000             0         10000 
+   129 rest_Din_acum[E]
+                                6500             0         10000 
+   130 rest_Din_acum[F]
+                                1500             0         10000 
+   131 rest_Din_acum[G]
+                                2500             0         10000 
+   132 rest_Din_acum[H]
+                                1500             0         10000 
+   133 rest_Din_acum[I]
+                                   0             0         10000 
+   134 rest_Din_acum[J]
+                                1000             0         10000 
+   135 dineroSiguienteMenor[A,B]
+                                3500                      102000 
+   136 dineroSiguienteMenor[A,C]
+                                1500                      102000 
+   137 dineroSiguienteMenor[A,D]
+                                 500                      102000 
+   138 dineroSiguienteMenor[A,E]
+                                6000                      102000 
+   139 dineroSiguienteMenor[A,F]
+                                1000                      102000 
+   140 dineroSiguienteMenor[A,G]
+                              102000                      102000 
+   141 dineroSiguienteMenor[A,H]
+                                1000                      102000 
+   142 dineroSiguienteMenor[A,I]
+                                -500                      102000 
+   143 dineroSiguienteMenor[A,J]
+                                 500                      102000 
+   144 dineroSiguienteMenor[B,A]
+                               -3500                       97000 
+   145 dineroSiguienteMenor[B,C]
+                               -2000                       97000 
+   146 dineroSiguienteMenor[B,D]
+                               97000                       97000 
+   147 dineroSiguienteMenor[B,E]
+                                2500                       97000 
+   148 dineroSiguienteMenor[B,F]
+                               -2500                       97000 
+   149 dineroSiguienteMenor[B,G]
+                               -1500                       97000 
+   150 dineroSiguienteMenor[B,H]
+                               -2500                       97000 
+   151 dineroSiguienteMenor[B,I]
+                               -4000                       97000 
+   152 dineroSiguienteMenor[B,J]
+                               -3000                       97000 
+   153 dineroSiguienteMenor[C,A]
+                               -1500                      102000 
+   154 dineroSiguienteMenor[C,B]
+                              102000                      102000 
+   155 dineroSiguienteMenor[C,D]
+                               -1000                      102000 
+   156 dineroSiguienteMenor[C,E]
+                                4500                      102000 
+   157 dineroSiguienteMenor[C,F]
+                                -500                      102000 
+   158 dineroSiguienteMenor[C,G]
+                                 500                      102000 
+   159 dineroSiguienteMenor[C,H]
+                                -500                      102000 
+   160 dineroSiguienteMenor[C,I]
+                               -2000                      102000 
+   161 dineroSiguienteMenor[C,J]
+                               -1000                      102000 
+   162 dineroSiguienteMenor[D,A]
+                                -500                      100500 
+   163 dineroSiguienteMenor[D,B]
+                                3000                      100500 
+   164 dineroSiguienteMenor[D,C]
+                                1000                      100500 
+   165 dineroSiguienteMenor[D,E]
+                                5500                      100500 
+   166 dineroSiguienteMenor[D,F]
+                                 500                      100500 
+   167 dineroSiguienteMenor[D,G]
+                                1500                      100500 
+   168 dineroSiguienteMenor[D,H]
+                              100500                      100500 
+   169 dineroSiguienteMenor[D,I]
+                               -1000                      100500 
+   170 dineroSiguienteMenor[D,J]
+                                   0                      100500 
+   171 dineroSiguienteMenor[E,A]
+                               -6000                       99000 
+   172 dineroSiguienteMenor[E,B]
+                               -2500                       99000 
+   173 dineroSiguienteMenor[E,C]
+                               -4500                       99000 
+   174 dineroSiguienteMenor[E,D]
+                               -5500                       99000 
+   175 dineroSiguienteMenor[E,F]
+                               -5000                       99000 
+   176 dineroSiguienteMenor[E,G]
+                               -4000                       99000 
+   177 dineroSiguienteMenor[E,H]
+                               -5000                       99000 
+   178 dineroSiguienteMenor[E,I]
+                               -6500                       99000 
+   179 dineroSiguienteMenor[E,J]
+                               -5500                       99000 
+   180 dineroSiguienteMenor[F,A]
+                               -1000                      105000 
+   181 dineroSiguienteMenor[F,B]
+                                2500                      105000 
+   182 dineroSiguienteMenor[F,C]
+                                 500                      105000 
+   183 dineroSiguienteMenor[F,D]
+                                -500                      105000 
+   184 dineroSiguienteMenor[F,E]
+                              105000                      105000 
+   185 dineroSiguienteMenor[F,G]
+                                1000                      105000 
+   186 dineroSiguienteMenor[F,H]
+                                   0                      105000 
+   187 dineroSiguienteMenor[F,I]
+                               -1500                      105000 
+   188 dineroSiguienteMenor[F,J]
+                                -500                      105000 
+   189 dineroSiguienteMenor[G,A]
+                               -2000                       99000 
+   190 dineroSiguienteMenor[G,B]
+                                1500                       99000 
+   191 dineroSiguienteMenor[G,C]
+                                -500                       99000 
+   192 dineroSiguienteMenor[G,D]
+                               -1500                       99000 
+   193 dineroSiguienteMenor[G,E]
+                                4000                       99000 
+   194 dineroSiguienteMenor[G,F]
+                               99000                       99000 
+   195 dineroSiguienteMenor[G,H]
+                               -1000                       99000 
+   196 dineroSiguienteMenor[G,I]
+                               -2500                       99000 
+   197 dineroSiguienteMenor[G,J]
+                               -1500                       99000 
+   198 dineroSiguienteMenor[H,A]
+                               99000                       99000 
+   199 dineroSiguienteMenor[H,B]
+                                2500                       99000 
+   200 dineroSiguienteMenor[H,C]
+                                 500                       99000 
+   201 dineroSiguienteMenor[H,D]
+                                -500                       99000 
+   202 dineroSiguienteMenor[H,E]
+                                5000                       99000 
+   203 dineroSiguienteMenor[H,F]
+                                   0                       99000 
+   204 dineroSiguienteMenor[H,G]
+                                1000                       99000 
+   205 dineroSiguienteMenor[H,I]
+                               -1500                       99000 
+   206 dineroSiguienteMenor[H,J]
+                                -500                       99000 
+   207 dineroSiguienteMenor[I,A]
+                                 500                      101000 
+   208 dineroSiguienteMenor[I,B]
+                                4000                      101000 
+   209 dineroSiguienteMenor[I,C]
+                                2000                      101000 
+   210 dineroSiguienteMenor[I,D]
+                                1000                      101000 
+   211 dineroSiguienteMenor[I,E]
+                                6500                      101000 
+   212 dineroSiguienteMenor[I,F]
+                                1500                      101000 
+   213 dineroSiguienteMenor[I,G]
+                                2500                      101000 
+   214 dineroSiguienteMenor[I,H]
+                                1500                      101000 
+   215 dineroSiguienteMenor[I,J]
+                              101000                      101000 
+   216 dineroSiguienteMenor[J,A]
+                                -500                      101000 
+   217 dineroSiguienteMenor[J,B]
+                                3000                      101000 
+   218 dineroSiguienteMenor[J,C]
+                              101000                      101000 
+   219 dineroSiguienteMenor[J,D]
+                                   0                      101000 
+   220 dineroSiguienteMenor[J,E]
+                                5500                      101000 
+   221 dineroSiguienteMenor[J,F]
+                                 500                      101000 
+   222 dineroSiguienteMenor[J,G]
+                                1500                      101000 
+   223 dineroSiguienteMenor[J,H]
+                                 500                      101000 
+   224 dineroSiguienteMenor[J,I]
+                               -1000                      101000 
+   225 dineroSiguienteMayor[A,B]
+                               -3500                       98000 
+   226 dineroSiguienteMayor[A,C]
+                               -1500                       98000 
+   227 dineroSiguienteMayor[A,D]
+                                -500                       98000 
+   228 dineroSiguienteMayor[A,E]
+                               -6000                       98000 
+   229 dineroSiguienteMayor[A,F]
+                               -1000                       98000 
+   230 dineroSiguienteMayor[A,G]
+                               98000                       98000 
+   231 dineroSiguienteMayor[A,H]
+                               -1000                       98000 
+   232 dineroSiguienteMayor[A,I]
+                                 500                       98000 
+   233 dineroSiguienteMayor[A,J]
+                                -500                       98000 
+   234 dineroSiguienteMayor[B,A]
+                                3500                      103000 
+   235 dineroSiguienteMayor[B,C]
+                                2000                      103000 
+   236 dineroSiguienteMayor[B,D]
+                              103000                      103000 
+   237 dineroSiguienteMayor[B,E]
+                               -2500                      103000 
+   238 dineroSiguienteMayor[B,F]
+                                2500                      103000 
+   239 dineroSiguienteMayor[B,G]
+                                1500                      103000 
+   240 dineroSiguienteMayor[B,H]
+                                2500                      103000 
+   241 dineroSiguienteMayor[B,I]
+                                4000                      103000 
+   242 dineroSiguienteMayor[B,J]
+                                3000                      103000 
+   243 dineroSiguienteMayor[C,A]
+                                1500                       98000 
+   244 dineroSiguienteMayor[C,B]
+                               98000                       98000 
+   245 dineroSiguienteMayor[C,D]
+                                1000                       98000 
+   246 dineroSiguienteMayor[C,E]
+                               -4500                       98000 
+   247 dineroSiguienteMayor[C,F]
+                                 500                       98000 
+   248 dineroSiguienteMayor[C,G]
+                                -500                       98000 
+   249 dineroSiguienteMayor[C,H]
+                                 500                       98000 
+   250 dineroSiguienteMayor[C,I]
+                                2000                       98000 
+   251 dineroSiguienteMayor[C,J]
+                                1000                       98000 
+   252 dineroSiguienteMayor[D,A]
+                                 500                       99500 
+   253 dineroSiguienteMayor[D,B]
+                               -3000                       99500 
+   254 dineroSiguienteMayor[D,C]
+                               -1000                       99500 
+   255 dineroSiguienteMayor[D,E]
+                               -5500                       99500 
+   256 dineroSiguienteMayor[D,F]
+                                -500                       99500 
+   257 dineroSiguienteMayor[D,G]
+                               -1500                       99500 
+   258 dineroSiguienteMayor[D,H]
+                               99500                       99500 
+   259 dineroSiguienteMayor[D,I]
+                                1000                       99500 
+   260 dineroSiguienteMayor[D,J]
+                                   0                       99500 
+   261 dineroSiguienteMayor[E,A]
+                                6000                      101000 
+   262 dineroSiguienteMayor[E,B]
+                                2500                      101000 
+   263 dineroSiguienteMayor[E,C]
+                                4500                      101000 
+   264 dineroSiguienteMayor[E,D]
+                                5500                      101000 
+   265 dineroSiguienteMayor[E,F]
+                                5000                      101000 
+   266 dineroSiguienteMayor[E,G]
+                                4000                      101000 
+   267 dineroSiguienteMayor[E,H]
+                                5000                      101000 
+   268 dineroSiguienteMayor[E,I]
+                                6500                      101000 
+   269 dineroSiguienteMayor[E,J]
+                                5500                      101000 
+   270 dineroSiguienteMayor[F,A]
+                                1000                       95000 
+   271 dineroSiguienteMayor[F,B]
+                               -2500                       95000 
+   272 dineroSiguienteMayor[F,C]
+                                -500                       95000 
+   273 dineroSiguienteMayor[F,D]
+                                 500                       95000 
+   274 dineroSiguienteMayor[F,E]
+                               95000                       95000 
+   275 dineroSiguienteMayor[F,G]
+                               -1000                       95000 
+   276 dineroSiguienteMayor[F,H]
+                                   0                       95000 
+   277 dineroSiguienteMayor[F,I]
+                                1500                       95000 
+   278 dineroSiguienteMayor[F,J]
+                                 500                       95000 
+   279 dineroSiguienteMayor[G,A]
+                                2000                      101000 
+   280 dineroSiguienteMayor[G,B]
+                               -1500                      101000 
+   281 dineroSiguienteMayor[G,C]
+                                 500                      101000 
+   282 dineroSiguienteMayor[G,D]
+                                1500                      101000 
+   283 dineroSiguienteMayor[G,E]
+                               -4000                      101000 
+   284 dineroSiguienteMayor[G,F]
+                              101000                      101000 
+   285 dineroSiguienteMayor[G,H]
+                                1000                      101000 
+   286 dineroSiguienteMayor[G,I]
+                                2500                      101000 
+   287 dineroSiguienteMayor[G,J]
+                                1500                      101000 
+   288 dineroSiguienteMayor[H,A]
+                              101000                      101000 
+   289 dineroSiguienteMayor[H,B]
+                               -2500                      101000 
+   290 dineroSiguienteMayor[H,C]
+                                -500                      101000 
+   291 dineroSiguienteMayor[H,D]
+                                 500                      101000 
+   292 dineroSiguienteMayor[H,E]
+                               -5000                      101000 
+   293 dineroSiguienteMayor[H,F]
+                                   0                      101000 
+   294 dineroSiguienteMayor[H,G]
+                               -1000                      101000 
+   295 dineroSiguienteMayor[H,I]
+                                1500                      101000 
+   296 dineroSiguienteMayor[H,J]
+                                 500                      101000 
+   297 dineroSiguienteMayor[I,A]
+                                -500                       99000 
+   298 dineroSiguienteMayor[I,B]
+                               -4000                       99000 
+   299 dineroSiguienteMayor[I,C]
+                               -2000                       99000 
+   300 dineroSiguienteMayor[I,D]
+                               -1000                       99000 
+   301 dineroSiguienteMayor[I,E]
+                               -6500                       99000 
+   302 dineroSiguienteMayor[I,F]
+                               -1500                       99000 
+   303 dineroSiguienteMayor[I,G]
+                               -2500                       99000 
+   304 dineroSiguienteMayor[I,H]
+                               -1500                       99000 
+   305 dineroSiguienteMayor[I,J]
+                               99000                       99000 
+   306 dineroSiguienteMayor[J,A]
+                                 500                       99000 
+   307 dineroSiguienteMayor[J,B]
+                               -3000                       99000 
+   308 dineroSiguienteMayor[J,C]
+                               99000                       99000 
+   309 dineroSiguienteMayor[J,D]
+                                   0                       99000 
+   310 dineroSiguienteMayor[J,E]
+                               -5500                       99000 
+   311 dineroSiguienteMayor[J,F]
+                                -500                       99000 
+   312 dineroSiguienteMayor[J,G]
+                               -1500                       99000 
+   313 dineroSiguienteMayor[J,H]
+                                -500                       99000 
+   314 dineroSiguienteMayor[J,I]
+                                1000                       99000 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[O,A]       *              0             0             1 
+     2 x[O,B]       *              0             0             1 
+     3 x[O,C]       *              0             0             1 
+     4 x[O,D]       *              0             0             1 
+     5 x[O,E]       *              0             0             1 
+     6 x[O,F]       *              0             0             1 
+     7 x[O,G]       *              0             0             1 
+     8 x[O,H]       *              0             0             1 
+     9 x[O,I]       *              1             0             1 
+    10 x[O,J]       *              0             0             1 
+    11 x[A,O]       *              0             0             1 
+    12 x[A,B]       *              0             0             1 
+    13 x[A,C]       *              0             0             1 
+    14 x[A,D]       *              0             0             1 
+    15 x[A,E]       *              0             0             1 
+    16 x[A,F]       *              0             0             1 
+    17 x[A,G]       *              1             0             1 
+    18 x[A,H]       *              0             0             1 
+    19 x[A,I]       *              0             0             1 
+    20 x[A,J]       *              0             0             1 
+    21 x[B,O]       *              0             0             1 
+    22 x[B,A]       *              0             0             1 
+    23 x[B,C]       *              0             0             1 
+    24 x[B,D]       *              1             0             1 
+    25 x[B,E]       *              0             0             1 
+    26 x[B,F]       *              0             0             1 
+    27 x[B,G]       *              0             0             1 
+    28 x[B,H]       *              0             0             1 
+    29 x[B,I]       *              0             0             1 
+    30 x[B,J]       *              0             0             1 
+    31 x[C,O]       *              0             0             1 
+    32 x[C,A]       *              0             0             1 
+    33 x[C,B]       *              1             0             1 
+    34 x[C,D]       *              0             0             1 
+    35 x[C,E]       *              0             0             1 
+    36 x[C,F]       *              0             0             1 
+    37 x[C,G]       *              0             0             1 
+    38 x[C,H]       *              0             0             1 
+    39 x[C,I]       *              0             0             1 
+    40 x[C,J]       *              0             0             1 
+    41 x[D,O]       *              0             0             1 
+    42 x[D,A]       *              0             0             1 
+    43 x[D,B]       *              0             0             1 
+    44 x[D,C]       *              0             0             1 
+    45 x[D,E]       *              0             0             1 
+    46 x[D,F]       *              0             0             1 
+    47 x[D,G]       *              0             0             1 
+    48 x[D,H]       *              1             0             1 
+    49 x[D,I]       *              0             0             1 
+    50 x[D,J]       *              0             0             1 
+    51 x[E,O]       *              1             0             1 
+    52 x[E,A]       *              0             0             1 
+    53 x[E,B]       *              0             0             1 
+    54 x[E,C]       *              0             0             1 
+    55 x[E,D]       *              0             0             1 
+    56 x[E,F]       *              0             0             1 
+    57 x[E,G]       *              0             0             1 
+    58 x[E,H]       *              0             0             1 
+    59 x[E,I]       *              0             0             1 
+    60 x[E,J]       *              0             0             1 
+    61 x[F,O]       *              0             0             1 
+    62 x[F,A]       *              0             0             1 
+    63 x[F,B]       *              0             0             1 
+    64 x[F,C]       *              0             0             1 
+    65 x[F,D]       *              0             0             1 
+    66 x[F,E]       *              1             0             1 
+    67 x[F,G]       *              0             0             1 
+    68 x[F,H]       *              0             0             1 
+    69 x[F,I]       *              0             0             1 
+    70 x[F,J]       *              0             0             1 
+    71 x[G,O]       *              0             0             1 
+    72 x[G,A]       *              0             0             1 
+    73 x[G,B]       *              0             0             1 
+    74 x[G,C]       *              0             0             1 
+    75 x[G,D]       *              0             0             1 
+    76 x[G,E]       *              0             0             1 
+    77 x[G,F]       *              1             0             1 
+    78 x[G,H]       *              0             0             1 
+    79 x[G,I]       *              0             0             1 
+    80 x[G,J]       *              0             0             1 
+    81 x[H,O]       *              0             0             1 
+    82 x[H,A]       *              1             0             1 
+    83 x[H,B]       *              0             0             1 
+    84 x[H,C]       *              0             0             1 
+    85 x[H,D]       *              0             0             1 
+    86 x[H,E]       *              0             0             1 
+    87 x[H,F]       *              0             0             1 
+    88 x[H,G]       *              0             0             1 
+    89 x[H,I]       *              0             0             1 
+    90 x[H,J]       *              0             0             1 
+    91 x[I,O]       *              0             0             1 
+    92 x[I,A]       *              0             0             1 
+    93 x[I,B]       *              0             0             1 
+    94 x[I,C]       *              0             0             1 
+    95 x[I,D]       *              0             0             1 
+    96 x[I,E]       *              0             0             1 
+    97 x[I,F]       *              0             0             1 
+    98 x[I,G]       *              0             0             1 
+    99 x[I,H]       *              0             0             1 
+   100 x[I,J]       *              1             0             1 
+   101 x[J,O]       *              0             0             1 
+   102 x[J,A]       *              0             0             1 
+   103 x[J,B]       *              0             0             1 
+   104 x[J,C]       *              1             0             1 
+   105 x[J,D]       *              0             0             1 
+   106 x[J,E]       *              0             0             1 
+   107 x[J,F]       *              0             0             1 
+   108 x[J,G]       *              0             0             1 
+   109 x[J,H]       *              0             0             1 
+   110 x[J,I]       *              0             0             1 
+   111 dinero_acumulado[A]
+                                 500                             
+   112 dinero_acumulado[B]
+                                4000                             
+   113 dinero_acumulado[C]
+                                2000                             
+   114 dinero_acumulado[D]
+                                1000                             
+   115 dinero_acumulado[E]
+                                6500                             
+   116 dinero_acumulado[F]
+                                1500                             
+   117 dinero_acumulado[G]
+                                2500                             
+   118 dinero_acumulado[H]
+                                1500                             
+   119 dinero_acumulado[I]
+                                   0                             
+   120 dinero_acumulado[J]
+                                1000                             
+   121 U[B]         *              4                             
+   122 U[A]         *              7                             
+   123 U[C]         *              3                             
+   124 U[D]         *              5                             
+   125 U[E]         *             10                             
+   126 U[F]         *              9                             
+   127 U[G]         *              8                             
+   128 U[H]         *              6                             
+   129 U[I]         *              1                             
+   130 U[J]         *              2                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 4.55e-13 on row 150
+        max.rel.err = 5.68e-17 on row 150
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
