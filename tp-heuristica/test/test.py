@@ -11,7 +11,7 @@ def func(a, lst):
 a = 1
 lst = [1,2,3]
 
-print lst[1:]
+print lst[:2]
 
 print a
 print lst

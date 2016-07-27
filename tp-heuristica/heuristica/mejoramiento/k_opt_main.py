@@ -8,7 +8,7 @@ from heuristica.construccion.nearest_neighbor import nearest_neighbor, \
 from heuristica.mejoramiento.k_opt import k_opt
 
 
-route = random_route()
+route = nearest_neighbor()
 print ""
 print "Ruta inicial"
 print ""

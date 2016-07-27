@@ -20,10 +20,20 @@ def calculate_distance(route):
     
     return distance
 
-def swap(lst, i, j):
-    aux = lst[i]
-    lst[i] = lst[j]
-    lst[j] = aux
+def swap(route, i, j):
+    
+    if(i < j):
+        min = i
+        max = j
+    else:
+        min = j
+        max = i        
+    
+    new_route = []
+    new_route.extend(route[:min])
+    new_route.extend(list(reversed(route[min:max+1])))
+    new_route.extend(route[max+1:])
+    return new_route
 
 def is_route_possible(route):
     money = 0
@@ -31,7 +41,7 @@ def is_route_possible(route):
     for bank in route:
         movement = MOVEMENTS[bank]
         money += movement
-        if (money < 0):
+        if ((money < 0) or (money >= MAX_MONEY)):
             return False
         
     return True
@@ -48,15 +58,15 @@ def k_opt(route):
         while (i <= N - 1) and not change:
             j = i + 1
             while (j <= N) and not change:
-                swap(route, i, j)
-                new_distance = calculate_distance(route)
-                if ((is_route_possible(route)) and (new_distance < distance)):
+                new_route = swap(route, i, j)
+                new_distance = calculate_distance(new_route)
+                if ((is_route_possible(new_route)) and (new_distance < distance)):
                     change = True
                     distance = new_distance
-                    print "Intercambiando",route[j],"y",route[i]
+                    route = new_route
+                    print "Intercambiando",BANKS[route[j]],"y",BANKS[route[i]]
+                    print "Nueva distancia: ", new_distance
                     print ""
-                else:
-                    swap(route, i, j)
                 j += 1
             i += 1
         

@@ -13,6 +13,8 @@ N = 10
 MAX_MONEY = 10000
 INITIAL_MONEY = 0
 
+BANKS = {0:"Origen", 1:"A", 2:"B", 3:"C", 4:"D", 5:"E", 6:"F", 7:"G", 8:"H", 9:"I", 10:"J"}
+
 # Banks money movements
 MOV_O = 0  # Origin
 MOV_A = 2000
@@ -78,6 +80,10 @@ def get_sorted_bank_distances(bank):
 def have_enough_money(money, bank):
     movement = MOVEMENTS[bank]
     return (money + movement >= 0)
+
+def have_enough_space(money, bank):
+    movement = MOVEMENTS[bank]
+    return (money + movement <= MAX_MONEY)
     
 def go_to_bank(route, money, next_bank):
     route.append(next_bank)
@@ -98,7 +104,7 @@ def print_route(route):
         movement = MOVEMENTS[bank]
         money += movement
         
-        output_row = (str(bank) + "\t", str(distance) + "\t"*3, str(money))
+        output_row = (BANKS[bank] + "\t", str(distance) + "\t"*3, str(money))
         output.append(output_row)
         
         idx += 1
@@ -148,7 +154,7 @@ def nearest_neighbor():
     
         while (idx <= N) and (not found_next_bank):
             next_bank = sorted_bank_distances[idx][0]
-            if (not next_bank in route) and (have_enough_money(money, next_bank)):
+            if (not next_bank in route) and (have_enough_money(money, next_bank) and (have_enough_space(money, next_bank))):
                 money = go_to_bank(route, money, next_bank)
                 found_next_bank = True
             else:
